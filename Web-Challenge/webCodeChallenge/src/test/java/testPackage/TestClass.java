@@ -28,5 +28,9 @@ public class TestClass extends BaseTests{
     public void SondosTestSix(){
 
     }
+    @Test
+    public void SondosTestSeven(){
+
+    }
 
 }
