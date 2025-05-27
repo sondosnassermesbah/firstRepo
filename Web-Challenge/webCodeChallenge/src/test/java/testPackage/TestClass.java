@@ -22,7 +22,10 @@ public class TestClass extends BaseTests{
 
     @Test
     public void SondosTestFive(){
-        //Bug
+
+    }
+    @Test
+    public void SondosTestSix(){
 
     }
 
