@@ -3,21 +3,31 @@ package testPackage;
 import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 
-public class TestClass extends BaseTests{
+public class TestClass extends BaseTests {
     @Test
-    public void test(){
+    public void test() {
         searchBox.SearchBox("Laptop");
-       boolean displayingProduct = searchBox.WaitForElement();
+        boolean displayingProduct = searchBox.WaitForElement();
         assertTrue(displayingProduct);
     }
+
     @Test
-    public void SondosFirstTest(){
+    public void SondosFirstTest() {
 
     }
 
     @Test
-    public void SondosSecondTest(){
+    public void SondosSecondTest() {
 
     }
 
+    @Test
+    public void SondosThirdTest() {
+
+    }
+
+    @Test
+    public void SondosEightTest() {
+
+    }
 }
